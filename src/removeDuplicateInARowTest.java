@@ -34,6 +34,11 @@ public class removeDuplicateInARowTest {
 
     @org.junit.Test
     public void removeDup7() {
+        assertEquals("", removeDuplicateInARow.removeDup("abccba"));
+    }
+
+    @org.junit.Test
+    public void removeDup8() {
         assertEquals("", removeDuplicateInARow.removeDup(""));
     }
 }
